@@ -4,6 +4,9 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+
+output * resolution --custom 1920x1080
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -14,7 +17,8 @@ set $down j
 set $up k
 set $right l
 # Your preferred terinal emulator
-set $term urxvt
+set $term 'alacritty msg create-window || alacritty'
+#set $term urxvt
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.

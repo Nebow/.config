@@ -1,6 +1,6 @@
+@import "config.rasi"
 
 configuration {
-    theme:                          "config";
     show-icons:                     false;
     font:                           "Font Awesome 17";
 }

@@ -17,7 +17,7 @@ list_icons() {
 handle_option() {
     case "$1" in
         "$LOCK")
-          swaylock -i /home/tichy/Pictures/walls/marsSurfaceEdit.jpg
+          swaylock -i /home/daniel/.config/marsSurfaceEdit2.jpg
             ;;
         "$SLEEP")
           systemctl suspend

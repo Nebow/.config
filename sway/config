@@ -27,7 +27,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/tichy/Pictures/walls/marsSurfaceEdit.jpg fill
+output * bg /home/daniel/.config/marsSurfaceEdit2.jpg fill
 
 
 

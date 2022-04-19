@@ -1,0 +1,52 @@
+* {
+   outline-style: none;
+
+}
+
+window {
+    border: 0;
+    background-color: #292929;
+    border-radius: 20px;
+}
+
+#input {
+    background-color: #555555;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: 10px 20px;
+    border: 0;
+}
+
+#inner-box {
+    padding: 0 20px;
+}
+
+#outer-box {
+    padding: 10px;
+    margin: 0px;
+}
+
+#scroll {
+    margin: 5px 0px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+#scroll label {
+    margin: 0;
+    margin-left: 15px;
+}
+
+#entry:selected {
+    border-radius: 8px;
+    background-color: rgb(105, 105, 105);
+}
+
+#text {
+    border: 0px;
+    color: #b9a78c
+}
+
+#entry {
+    border: 0;
+}

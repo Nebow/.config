@@ -79,9 +79,9 @@ border_images.urgent ~/.config/sway/borders/dropShadowDarkOffset.png
 
 
 ### Key bindings
-bindsym $mod+i exec /home/tichy/.config/rofi/launchers/text/launcher.sh
+bindsym $mod+i exec /home/daniel/.config/rofi/launchers/text/launcher.sh
 
-bindsym $mod+Shift+a exec /home/tichy/bin/power-menu.sh
+bindsym $mod+Shift+a exec /home/daniel/.config/scripts/power-menu.sh
 
 
 gaps inner 18

@@ -58,7 +58,7 @@ window#waybar.hidden {
   padding: 0.5rem 0.9rem;
   /*color: #d8dee9;*/
   /*background: #2b2724;*/
-  color: #C77750;
+  color: #c1a587;
   background: #2b2724;
   border-radius: 10px;;
 }
@@ -86,7 +86,7 @@ window#waybar.hidden {
   padding: 0.5rem 0.9rem;
   /*color: #d8dee9;*/
   /*background: #2e3440;*/
-  color: #C77750;
+  color: #c1a587;
   background: #2b2724;
   border-radius: 10px;
 
@@ -163,7 +163,7 @@ label:focus {
 #clock,
 #custom-icon-cube {
   /*background: #2b2724;*/
-  color: #C77750;
+  color: #c1a587;
 
   /* /\* pride month *\/ */
   /* background: linear-gradient( */

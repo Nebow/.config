@@ -33,7 +33,9 @@ output * bg ~/.config/marsSurfaceEdit2.jpg fill
 
 ## Custom styling
 
-default_border pixel 0
+default_border pixel 2
+smart_borders on
+client.focused #aa6942 #aa6942 #aa6942
 
 
 

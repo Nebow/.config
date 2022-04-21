@@ -27,7 +27,7 @@ set $menu wofi --show drun -a
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/daniel/.config/marsSurfaceEdit2.jpg fill
+output * bg ~/.config/marsSurfaceEdit2.jpg fill
 
 
 
@@ -35,15 +35,7 @@ output * bg /home/daniel/.config/marsSurfaceEdit2.jpg fill
 
 default_border pixel 0
 
-border_images.focused ~/.config/sway/borders/dropShadowDarkOffset.png
-border_images.focused_inactive ~/.config/sway/borders/dropShadowDarkOffset.png
-border_images.unfocused ~/.config/sway/borders/dropShadowDarkOffset.png
-border_images.urgent ~/.config/sway/borders/dropShadowDarkOffset.png
 
-
-# border_images.focused_inactive ~/.config/sway/borders/dropShadowUnfocused.png
-# border_images.unfocused ~/.config/sway/borders/dropShadowUnfocused.png
-# border_images.urgent ~/.config/sway/borders/dropShadowUnfocused.png
 
 # Example configuration:
 #
@@ -79,9 +71,9 @@ border_images.urgent ~/.config/sway/borders/dropShadowDarkOffset.png
 
 
 ### Key bindings
-bindsym $mod+i exec /home/daniel/.config/rofi/launchers/text/launcher.sh
 
-bindsym $mod+Shift+a exec /home/daniel/.config/scripts/power-menu.sh
+
+bindsym $mod+Shift+a exec ~/.config/scripts/power-menu.sh
 
 
 gaps inner 18

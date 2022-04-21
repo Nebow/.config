@@ -1,8 +1,0 @@
-[Unit]
-Description=Sway WM
-
-[Service]
-ExecStart=/usr/bin/sway
-
-[Install]
-WantedBy=default.target

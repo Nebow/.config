@@ -35,7 +35,7 @@ element-text {
     border:                         0px;
     border-color:                   @primary;
     border-radius:                  5;
-    padding:                        12px 0px 6px;
+    padding:                        8px 0px 8px;
     width: 50px;
     
 }

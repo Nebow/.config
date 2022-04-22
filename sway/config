@@ -175,6 +175,12 @@ exec xrdb .Xresources
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
+#
+#
+#
+ 
+    # Make the current focus fullscreen
+    bindsym $mod+f fullscreen
 
 
 

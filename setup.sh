@@ -3,7 +3,7 @@ sudo pacman --noconfirm -S foot ranger git nano rofi wofi zathura waybar ttf-fon
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg --noconfirm -si
 
 xdg-settings set default-web-browser firefox.desktop
 

@@ -20,7 +20,3 @@ if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
   exec sway
 fi
 EOF
-
-cat << EOF >> /etc/vconsole.conf
-FONT=ter-v22n
-EOF

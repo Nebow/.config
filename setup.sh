@@ -5,7 +5,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg --noconfirm -si
 
-xdg-settings set default-web-browser firefox.desktop
 
 touch ~/.hushlogin
 

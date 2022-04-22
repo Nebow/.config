@@ -13,3 +13,14 @@ touch .hushlogin
 git clone --recursive https://github.com/akinomyoga/ble.sh.git
 make -C ble.sh install PREFIX=~/.local
 echo 'source ~/.local/share/blesh/ble.sh' >> ~/.bashrc
+
+
+cat << EOF >> ~/.bash_profile
+if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
+  exec sway
+fi
+EOF
+
+cat << EOF >> /etc/vconsole.conf
+FONT=ter-v22n
+EOF

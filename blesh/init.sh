@@ -6,3 +6,4 @@ ble-face command_builtin=fg=003
 ble-face command_alias=fg=003
 ble-face filename_directory=fg=003
 ble-face filename_other=fg=003
+bleopt exec_errexit_mark=

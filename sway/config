@@ -74,6 +74,7 @@ client.focused #aa6942 #aa6942 #aa6942
 
 
 bindsym $mod+Shift+a exec ~/.config/scripts/power-menu.sh
+bindsym Print exec ~/.config/scripts/screenshot.sh select
 
 
 gaps inner 15

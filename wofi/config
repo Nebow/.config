@@ -3,3 +3,7 @@ height=600
 mode=run
 colors=colors
 filter_rate=100
+term=foot
+hide_scroll=true
+insensitive=true
+prompt=

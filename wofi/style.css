@@ -52,3 +52,6 @@ window {
 #entry {
     border: 0;
 }
+.left, .right {
+  color: transparent;
+}

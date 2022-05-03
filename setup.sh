@@ -13,8 +13,6 @@ git clone --recursive https://github.com/akinomyoga/ble.sh.git
 make -C ble.sh install PREFIX=~/.local
 echo 'source ~/.local/share/blesh/ble.sh' >> ~/.bashrc
 
-bleopt exec_errexit_mark=
-
 
 cat << EOF >> ~/.bash_profile
 if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then

@@ -1,4 +1,11 @@
-@import "config.rasi"
+* {
+    background-color:               #2b2724;
+    background:                     #2b2724;
+    background-alt:                 #2b2724;
+    text-color:                     #8f5536;
+    primary:                        #345f69;
+    urgent:                         #785849;
+}
 
 configuration {
     show-icons:                     false;

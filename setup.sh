@@ -23,3 +23,5 @@ EOF
 
 cd ..
 sudo rm -r yay
+
+echo "FONT=ter-v22n" | sudo tee -a /etc/vconsole.conf

@@ -88,8 +88,9 @@ bindsym --locked XF86AudioMute exec pamixer -t
 
 
 
-bindsym $mod+space+up exec light -T 1.4 && notify-send 'brightness up'
-bindsym $mod+space+down exec light -T .74 && notify-send 'brightness down'
+bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+
 
 exec xrdb .Xresources
 

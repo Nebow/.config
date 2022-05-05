@@ -15,7 +15,7 @@ echo 'source ~/.local/share/blesh/ble.sh' >> ~/.bashrc
 
 
 cat << EOF >> ~/.bash_profile
-if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
+if [ -z $DISPLAY ] && [ "\$(tty)" = "/dev/tty1" ]; then
   exec sway
 fi
 EOF

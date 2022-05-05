@@ -9,7 +9,7 @@
        "custom/power",
     ],
     "modules-center": ["sway/workspaces"],
-    "modules-right": ["network", "cpu", "memory", "battery", "clock"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "clock"],
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },
@@ -95,21 +95,10 @@
         "max-length": 50,
         "on-click": "urxvt -e 'nmtui'"
     },
-    "pulseaudio#sound": {
-        "format": "{volume}",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-    },
-    "pulseaudio#icon": {
+    
+    "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}",
+        "format": "{volume}% {icon}",
         "format-bluetooth": "{icon}",
         "format-bluetooth-muted": " {icon}",
         "format-muted": "",

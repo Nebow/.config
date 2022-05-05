@@ -20,7 +20,7 @@ set $right l
 set $term foot
 
 # Your preferred application launcher
-set $menu wofi --show drun -a
+set $menu wofi --allow-images --show drun -a
 
 ### Output configuration
 #

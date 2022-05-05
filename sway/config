@@ -82,6 +82,12 @@ gaps outer 0
 
 
 
+bindsym --locked XF86AudioRaiseVolume exec pamixer -i 5
+bindsym --locked XF86AudioLowerVolume exec pamixer -d 5
+bindsym --locked XF86AudioMute exec pamixer -t
+
+
+
 bindsym $mod+space+up exec light -T 1.4 && notify-send 'brightness up'
 bindsym $mod+space+down exec light -T .74 && notify-send 'brightness down'
 

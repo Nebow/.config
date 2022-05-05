@@ -6,7 +6,7 @@
     // "width": 1280, // Waybar width
     // Choose the order of the modules
     "modules-left": [
-       "custom/power",
+       "custom/power", "battery",
     ],
     "modules-center": ["sway/workspaces"],
     "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "clock"],

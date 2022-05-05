@@ -59,7 +59,7 @@ client.focused #aa6942 #aa6942 #aa6942
 #
 # Example configuration:
 #
-  input "2:7:SynPS/2_Synaptics_TouchPad" {
+  input type:touchpad {
       dwt enabled
       tap enabled
       natural_scroll enabled

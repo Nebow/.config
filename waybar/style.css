@@ -10,6 +10,7 @@
 
 .horizontal {
   padding: 2px;
+  padding-bottom: 0;
 }
 
 /*.horizontal:nth-child(2) {*/

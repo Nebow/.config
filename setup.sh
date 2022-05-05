@@ -24,7 +24,7 @@ EOF
 cd ..
 sudo rm -r yay
 
-echo "FONT=ter-v22n" | sudo tee -a /etc/vconsole.conf
+echo "FONT=ter-128n" | sudo tee -a /etc/vconsole.conf
 
 echo "alias rm='rm -i'" | sudo tee -a ~/.bashrc
 

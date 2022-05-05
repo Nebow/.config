@@ -6,7 +6,7 @@
     // "width": 1280, // Waybar width
     // Choose the order of the modules
     "modules-left": [
-       "custom/power", "battery",
+       "custom/power", "battery", "backlight#value",
     ],
     "modules-center": ["sway/workspaces"],
     "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "clock"],
@@ -63,8 +63,10 @@
     },
     "backlight#value": {
         // "device": "acpi_video1",
-        "format": "{percent}",
-        "on-click": "ctl-backlight.waybar.sh up"
+        "format": "{percent}% ",
+        "on-scroll-up": "exec brightnessctl set 1%+",
+        "on-scroll-down": "exec brightnessctl set 1%-"
+        //"on-click": "ctl-backlight.waybar.sh up"
     },
     "battery": {
         "states": {

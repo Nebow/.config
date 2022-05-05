@@ -28,6 +28,7 @@ echo "FONT=ter-v22n" | sudo tee -a /etc/vconsole.conf
 
 echo "alias rm='rm -i'" | sudo tee -a ~/.bashrc
 
+sudo mkdir /etc/systemd/system/getty@tty1.service.d
 sudo tee -a /etc/systemd/system/getty@tty1.service.d/override.conf << EOF
 [Service]
 ExecStart=

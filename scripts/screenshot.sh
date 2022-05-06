@@ -16,6 +16,6 @@ elif [ $1 == "select" ]; then
 fi
 
 if [ "$SNIP_DIMENSIONS" != "selection cancelled" ]; then
-  grim -g "$SNIP_DIMENSIONS" - | wl-copy -t image/png
+  grim -g "$SNIP_DIMENSIONS" - | pngquant - | wl-copy -t image/png
   wl-paste > ~/screenshots/screenshot_$(date +'%Y%m%d_%H%M%S.png')
 fi
